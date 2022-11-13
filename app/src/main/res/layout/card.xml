@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:backgroundTint="@color/quantum_bluegrey100"
+    android:elevation="10sp"
+    android:layout_marginTop="10sp"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/tv_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/tv_suburb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="update"
+                android:layout_marginLeft="175sp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

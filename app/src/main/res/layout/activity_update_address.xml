@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UpdateAddress">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Address"
+        android:textSize="24sp"/>
+
+
+    <EditText
+        android:id="@+id/et_updatefullName"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"/>
+    <EditText
+        android:id="@+id/et_updatestreetAddress"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="Street Address"/>
+
+    <EditText
+        android:id="@+id/et_updatesuburb"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="Suburb"/>
+
+    <EditText
+        android:id="@+id/et_updatecity"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="City"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_updateback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:layout_marginRight="10sp"/>
+
+
+        <Button
+            android:id="@+id/btn_deleteaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:layout_marginRight="10sp"/>
+
+        <Button
+            android:id="@+id/btn_updateaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
